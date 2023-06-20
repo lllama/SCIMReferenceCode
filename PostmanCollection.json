@@ -110,14 +110,14 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "{{Protocol}}://{{Server}}{{Port}}/{{Api}}/users",
+							"raw": "{{Protocol}}://{{Server}}{{Port}}/{{Api}}/Users",
 							"protocol": "{{Protocol}}",
 							"host": [
 								"{{Server}}{{Port}}"
 							],
 							"path": [
 								"{{Api}}",
-								"users"
+								"Users"
 							]
 						},
 						"description": "Validate User enpoint exists"
